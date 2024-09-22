@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "simple-use-dataproc"
+version = "0.1.0"
+description = ""
+authors = ["nosu23 <raidzimmer52@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.4"
+google-cloud-dataproc = "^5.12.0"
+google-cloud-storage = "^2.18.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
